@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="TestNGajanan.TestNgFirstClass">
+        <methods>
+          <include name="demo2d"/>
+          <include name="xyz"/>
+        </methods>
+      </class> <!-- TestNGajanan.TestNgFirstClass -->
+      <class name="TestNGajanan.TestNgSecondClass">
+        <methods>
+          <include name="MySecondClass2"/>
+        </methods>
+      </class> <!-- TestNGajanan.TestNgSecondClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
